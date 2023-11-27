@@ -1,0 +1,15 @@
+body {
+    background-image: url("resimler/kış.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  h2 {
+    color:aliceblue
+ }
+ h4{
+    color:aliceblue
+ }
+ a{
+    color: rgb(67, 3, 93);
+}

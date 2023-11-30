@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=4vPi2qRO24Npq2Y5LbbbwWnnWyf1Ju-r2raeWhZeXn6YE9MN5O7qZ90hXR6PcCGbjFkLujlvO3uoqPhkNuvxRg" charset="UTF-8"></script><style> 
+
+ .slide{
+    width: 80px;
+    height: 80px;
+    background-color: red;
+    position: absolute;
+    animation: slideAnim 1s infinite alternate;
+    left: 0px;
+ }
+ @keyframes slideAnim{
+    from{
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(100px);
+    }
+ }
+ 
+ .buyu-kucul {
+    width: 80px;
+    height: 80px;
+    background-color:darkslateblue;
+    animation: buyu-kucul 1s infinite alternate, changcolor 2s infinite alternate;
+    position: absolute;
+    left: 150px;
+    top: 50px;
+ }
+
+@keyframes buyu-kucul {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(2);
+    }
+}
+@keyframes changcolor {
+    70%{
+        background-color:darkolivegreen;
+    }
+}
+
+.tamdon{
+    width: 80px;
+    height: 80px;
+    background-color:chartreuse;
+    animation: donAnim 5s infinite linear;
+    position: absolute;
+    left: 380px;
+}
+@keyframes donAnim{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.sagsol {
+    width: 80px;
+    height: 80px;
+    background-color:brown;
+    animation: sagAnim 2s infinite alternate ;
+    position: absolute;
+    left: 600px;
+    
+}
+
+@keyframes sagAnim{
+    from{
+        transform: translateX(0px) ;
+        opacity: 0;
+    }
+    to{
+        transform: translateX(50px);
+        opacity: 100;
+    }
+}
+
+</style>
+</head>
+<body>
+
+<div class="slide"></div>
+<div class="buyu-kucul"></div>
+<div class="tamdon"></div>
+<div class="sagsol"></div>
+
+</body>
+</html>

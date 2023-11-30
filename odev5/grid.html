@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">    
+<title>
+Selinay Ünal
+</title>
+<style>
+    .grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  row-gap: 10px;
+  column-gap: 10px;
+  padding: 10px;
+}
+    .grid-item {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  width: auto;
+  height: 80px;
+}
+.item1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    
+}
+.item2{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    
+}
+</style>
+</head>
+<body>
+
+    <div class="grid-container" style="width: 50%;">
+        <div class="grid-item item1" style="background-color:darkblue;">A</div>
+        <div class="grid-item" style="background-color: chocolate;">B</div>
+        <div class="grid-item" style="background-color: darkgreen;">C</div>  
+        <div class="grid-item" style="background-color: brown;">D</div>
+        <div class="grid-item item2" style="background-color: darkgoldenrod;">E</div>
+        <div class="grid-item" style="background-color: blueviolet;">F</div>  
+        <div class="grid-item item1 " style="background-color:deeppink;">G</div>
+      </div>
+      
+</body>
